@@ -1,0 +1,22 @@
+
+
+         self.NbConstraint =  int(content[1])
+           content = ''.join(fichier.readline().splitlines())
+           content.split() 
+           for i in range(self.NbVariable):
+             self.PriceVariable.append[int(content[i])]
+             
+           for j in range(self.NbConstraint):
+             content = ''.join(fichier.readline().splitlines())
+             content.split() 
+             contrainte = [int(content[i]) for i in range(self.NbVariable)]
+             self.ConstraintMatrix.append(contrainte)
+             
+           content = ''.join(fichier.readline().splitlines())
+           content.split()
+           for i in range(self.NbVariable):
+             self.Constraint.append(int(content[i]))
+             utility = [0,i,i]
+             self.Utility.append(utility)
+             
+        
